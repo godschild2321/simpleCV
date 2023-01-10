@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact and About</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Fill in your Contact Details below</h1>
+    <form action="mailto:brajdeep020@outlook.com" method="post" enctype="text/plain">
+        <label>Your Full Name :</label>
+        <input type="text" name="fullname"><br>
+        <label>Your email id:</label>
+        <input type="email" name="email"><br>
+        <label>Your contact number:</label>
+        <input type="password" name="password"><br>
+        <label>Who are you?</label>
+        <select name="whoareyou">
+            <option>School or High School Student</option>
+            <option>Freshman or Sophomore Year Student at University</option>
+            <option>Junior or Senior Year Student at University</option>
+            <option>Masters student</option>
+            <option>Researcher or doctorate student</option>
+            <option>Working professional with less than 5 years of experience</option>
+            <option>Experienced Professional</option>
+            <option>Educator or Professor</option>
+            <option>Others</option>
+        </select><br>
+        <label>Upload relevant documents</label>
+        <input type="file" name="Docs"><br>
+        <label>Your Message for us:</label><br>
+        <textarea name="message" cols="30" rows="10">Here-</textarea><br>
+        <button type="submit" onclick="alert('Thank You!')">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+    
+</body>
+</html>
